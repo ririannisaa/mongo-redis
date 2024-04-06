@@ -22,9 +22,9 @@ services:
     networks:
       - seal6-network
       
-  app-sealgo:
-    container_name: app-sealgo
-    image: app-sealgo:1.0.2
+  my-golang-app:
+    container_name: my-golang-app
+    image: my-golang-app:1.0.2
     ports:
       - 8080:8080
     depends_on:
